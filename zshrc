@@ -1,7 +1,7 @@
 # Prompt
 autoload -Uz add-zsh-hook
 _shelly_prompt() {
-	PROMPT=$("$HOME/nicy/nicy")
+	PROMPT=$("Path to shelly binary")
 }
 add-zsh-hook precmd _shelly_prompt
 # PATH
